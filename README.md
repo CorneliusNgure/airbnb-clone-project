@@ -58,27 +58,27 @@ The goal is to deliver a seamless and reliable experience for both users and hos
 
 ## 🔧 Feature Breakdown
 
-**User Management:**
+- **User Management:**
 
 Handles user registration, authentication, and profile updates. This ensures that both hosts and guests can securely access the platform and manage their account information.
 
-**Property Management:**
+- **Property Management:**
 
 Allows hosts to create, update, and delete property listings. This forms the backbone of the platform by enabling the availability of properties for guests to browse and book.
 
-**Booking System:**
+- **Booking System:**
 
 Enables users to reserve properties for specific dates and manage their booking details. It ensures availability is tracked and prevents double-booking of listings.
 
-**Payment Processing:**
+- **Payment Processing:**
 
 Processes payments associated with confirmed bookings and records transaction details. This feature ensures a secure and traceable flow of money between guests and hosts.
 
-**Review System:**
+- **Review System:**
 
 Lets users leave ratings and feedback on properties they have stayed in. Reviews help increase trust and provide valuable insight to future guests when choosing a property.
 
-**API Documentation:**
+- **API Documentation:**
 
 Provides detailed, standardized API documentation (via OpenAPI and GraphQL schemas). This allows developers to easily understand and integrate with the backend.
 
@@ -86,23 +86,23 @@ Provides detailed, standardized API documentation (via OpenAPI and GraphQL schem
 
 To ensure the platform remains safe and trustworthy for all users, the backend implements several security measures:
 
-**Authentication:**
+- **Authentication:**
 
 All endpoints require proper authentication (e.g., token-based) so that only verified users can access protected resources. This prevents unauthorized access and helps protect sensitive user data.
 
-**Authorization:**
+- **Authorization:**
 
 Role-based access control is enforced to ensure users can only perform actions they are allowed to (e.g., a user cannot update another user’s profile or modify a property they don’t own). This protects user-owned content and prevents abuse.
 
-**Rate Limiting:**
+- **Rate Limiting:**
 
 API requests are rate-limited to prevent abuse and protect the service from brute-force or denial-of-service attacks. This helps ensure the platform remains performant and available for all legitimate users.
 
-**Secure Payment Handling:**
+- **Secure Payment Handling:**
 
 All payment-related operations are handled through secure and encrypted channels. This is essential for protecting financial data and preventing fraudulent transactions.
 
-**Input Validation & Sanitization:**
+- **Input Validation & Sanitization:**
 
 Incoming request data is validated and sanitized to prevent injection attacks and other malicious behavior. This helps maintain the integrity of the system and protect the database.
 
