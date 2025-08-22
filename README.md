@@ -170,7 +170,7 @@ The system is designed for **performance, scalability, and security**, with full
 
 ---
 
-### Entity Relationship(ER)
+### Entity Relationship (ER)
 
 ```mermaid
 erDiagram
