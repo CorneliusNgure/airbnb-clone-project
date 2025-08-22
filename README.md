@@ -170,7 +170,7 @@ The system is designed for **performance, scalability, and security**, with full
 
 ---
 
-### Mermaid Entity Relationship(ER) Diagram
+### Entity Relationship(ER)
 
 ```mermaid
 erDiagram
@@ -250,7 +250,7 @@ erDiagram
 ```
 ---
 
-### Mermaid Sequence Diagram – Booking & Payment Flow
+### Booking & Payment Flow
 
 ```mermaid
     sequenceDiagram
@@ -282,7 +282,7 @@ erDiagram
 ```
 ---
 
-### Mermaid Flowchart – User Authentication Flow
+### User Authentication Flow
 
 ```mermaid
     flowchart TD
@@ -305,6 +305,8 @@ erDiagram
 * A **User(guest)** → **Bookings** (1-N)  
 * A **Booking** → **Payment** (1-1)  
 * A **Property** → **Reviews** (1-N, tied to completed bookings)
+
+---
 
 ### Indexes & Constraints
 * Unique index on `users.email`  
