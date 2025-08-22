@@ -1,11 +1,5 @@
-# 📘 Airbnb Clone – Developer Notes
+# 📘 Airbnb Clone – Guide  Notes
 
-These notes serve as a **comprehensive reference guide** before and during development of the Airbnb Clone backend.  
-They explain the diagrams already in your `README.md` and outline **how the system evolves step by step**.  
-
-Use this file to build a **mental model** of the project and to guide your execution.
-
----
 
 ## 🗂️ ER Diagram Deep Dive
 
