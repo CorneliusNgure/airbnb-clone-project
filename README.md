@@ -247,7 +247,7 @@ erDiagram
     PROPERTY ||--o{ REVIEW : receives
     USER ||--o{ REVIEW : writes
     BOOKING ||--o{ REVIEW : relates_to
-    ```
+```
 ---
 
 ### Mermaid Sequence Diagram – Booking & Payment Flow
@@ -279,7 +279,7 @@ erDiagram
     API-->>Guest: Booking confirmed + receipt
 
     API-->>Host: Notify new confirmed booking
-    ```
+```
 ---
 
 ### Mermaid Flowchart – User Authentication Flow
