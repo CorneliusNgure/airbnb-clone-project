@@ -6,6 +6,45 @@
 The Entity–Relationship (ER) diagram captures the **data model**.  
 It defines the core tables (entities), their attributes, and the relationships between them.
 
+
+```mermaid
+erDiagram
+    %% One-to-one
+    PERSON ||--|| PASSPORT : "has exactly one"
+
+    %% One-to-many
+    AUTHOR ||--o{ BOOK : "writes"
+
+    %% Many-to-many
+    STUDENT }o--o{ COURSE : "enrolls in"
+
+    %% Zero-or-one to many
+    CAR o|--|| OWNER : "is owned by"
+
+    %% Zero-or-many
+    TEACHER o{--|| SCHOOL : "works at"
+```
+
+### 📖 Explanation of symbols
+
+- || = exactly one
+
+- o| or |o = zero or one (optional)
+
+- o{ = zero or many
+
+- |{ = one or many
+
+- } with a crow’s foot = many
+
+#### So when you see:
+
+- ||--o{ → One-to-many (must have one on left, zero/many on right)
+
+- |o--o{ → Zero-or-one to zero-or-many
+
+- }o--o{ → Many-to-many
+
 ---
 
 ### 1) Entities (tables) & key fields
