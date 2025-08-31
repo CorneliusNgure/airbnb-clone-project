@@ -246,7 +246,7 @@ erDiagram
     BOOKING ||--|| PAYMENT : includes
     PROPERTY ||--o{ REVIEW : receives
     USER ||--o{ REVIEW : writes
-    BOOKING ||--o{ REVIEW : relates_to_(post-stay)
+    BOOKING ||--o{ REVIEW : "relates_to (post-stay)"
 ```
 ---
 
